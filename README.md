@@ -1,6 +1,6 @@
 # Welcome
 
-[GitHub Pages](https://gitjaesung.github.io/"target="_blank)
+[GitHub Pages](https://gitjaesung.github.io"target="_blank)
 
 I made this place for web study.  
 If you want this code, use it whatever you want.
