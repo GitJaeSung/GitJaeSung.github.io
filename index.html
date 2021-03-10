@@ -7,6 +7,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+        <script src="/public/javascript/include.js"></script>
         <title>깃허브 페이지 테스트</title>
         
     </head>
@@ -17,11 +18,7 @@
 
             <div class="sidebar">
 
-                <nav>
-
-                    <div><h1 class="sidebar_title">Themes</h1></div>
-
-                </nav>
+                <nav include="/_layout/sidebar.html"> </nav>
 
             </div>
 
@@ -32,5 +29,7 @@
         </div>
 
     </body>
+
+    <script>includeHTML();</script>
     
 </html>
