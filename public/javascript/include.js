@@ -1,4 +1,4 @@
-function includeHTML(callback) {
+function include(callback) {
 
     var elment_Size, lenght, elment, file, xhr;
     elment_Size = document.getElementsByTagName("*");
@@ -20,7 +20,7 @@ function includeHTML(callback) {
                     if(this.status == 404) { elment.innerHTML = "Page not found."; }
 
                     elment.removeAttribute("include");
-                    includeHTML(callback);
+                    include(callback);
                     
                 }
 
