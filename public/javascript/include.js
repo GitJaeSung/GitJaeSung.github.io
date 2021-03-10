@@ -6,7 +6,7 @@ function includeHTML(callback) {
     for(length = 0; length <elment_Size.length; length++) {
 
         elment = elment_Size[length];
-        file = elment.getAttribute("include_layouts");
+        file = elment.getAttribute("include");
 
         if(file) {
 
@@ -19,7 +19,7 @@ function includeHTML(callback) {
                     if(this.status == 200) { elment.innerHTML = this.responseText; }
                     if(this.status == 404) { elment.innerHTML = "Page not found."; }
 
-                    elment.removeAttribute("include_layouts");
+                    elment.removeAttribute("include");
                     includeHTML(callback);
                     
                 }
