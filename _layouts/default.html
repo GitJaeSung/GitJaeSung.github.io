@@ -3,25 +3,31 @@
 <html lang="en">
 
     <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scal=1">
         <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+        <script src="/public/javascript/includeLayouts.js"></script>
         <title>깃허브 페이지 테스트</title>
+
     </head>
 
     <body>
+        
+        <div class="container">
 
-        <header>
-            하이
-        </header>
+            <div class="sidebar">
+                <nav include_layouts="sidebar.html"></nav>
+            </div>
 
-        <aside>
-            <a>zzzzz</a>
-        </aside>
+            <div class="content">
 
-        <article>
-            zzz
-        </article>
+            </div>
+
+        </div>
 
     </body>
+    
+    <script>includeHTML();</script>
+    
 </html>
