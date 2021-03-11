@@ -3,7 +3,7 @@ function include(callback) {
     var elment_Size, lenght, elment, file, xhr;
     elment_Size = document.getElementsByTagName("*");
 
-    for(length = 0; length <elment_Size.length; length++) {
+    for(length = 0; length < elment_Size.length; length++) {
 
         elment = elment_Size[length];
         file = elment.getAttribute("include");
