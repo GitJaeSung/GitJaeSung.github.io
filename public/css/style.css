@@ -62,7 +62,7 @@ li.list-item {
     flex: auto;
     padding-left: 100px;
 }
-article.post {
+.post {
     height: 100%;
     width: 100%;
 }
