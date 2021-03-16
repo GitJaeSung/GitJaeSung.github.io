@@ -7,9 +7,6 @@ body {
     margin: 0;
     padding: 0;
 }
-div {
-    display: block;
-}
 a{
     color: rgb(200, 200, 200);
     background-color: transparent;
@@ -62,16 +59,11 @@ li.list-item {
 }
 /* sidebar */
 .content {
-    background-color: rgb(255, 255, 250);
-    height: 100%;
-    flex: 1 1 auto;
-    padding: 0px 30px;
-}
-article.post-section {
-    padding: 1px;
-    color: rgb(40, 40, 40);
+    flex: auto;
+    padding-left: 100px;
 }
 article.post {
-    color: rgb(40, 40, 40);   
+    height: 100%;
+    width: 100%;
 }
 /* content */

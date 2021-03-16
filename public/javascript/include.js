@@ -1,3 +1,5 @@
+//JavaScript for html isolation
+
 function include(callback) {
 
     var elment_Size, lenght, elment, file, xhr;

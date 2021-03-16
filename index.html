@@ -8,12 +8,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" href="/public/image/favicon.ico">
-        <link rel="shortuck icon" href="/public/image/favicon.ico">
-        <link rel="stylesheet" href="/public/css/style.css">
+        <link rel="icon" type="x-icon" href="/public/image/favicon.ico">
+        <link rel="shortuck icon" type="x-icon" href="/public/image/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/public/css/style.css">
         
-        <script src="/public/javascript/change.js"></script>
-        <script src="/public/javascript/include.js"></script>
+        <script type="text/javascript" src="/public/javascript/trick.js"></script>
+        <script type="text/javascript" src="/public/javascript/include.js"></script>
 
         <title>작업 중</title>
         
@@ -24,7 +24,10 @@
         <div class="container">
 
             <div class="side"><nav include="/layout/side.html"></nav></div>
-            <div class="content"><article class="post-section"><div id="post" name="post" onload="home();"></div></article></div>
+
+            <div class="content">
+                <article class="post" id="post" name="post"></article>
+            </div>
 
         </div>
 
