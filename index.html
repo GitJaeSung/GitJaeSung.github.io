@@ -8,9 +8,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" href="/public/image/favicon.ico" type="image/x-icon">
-        <link rel="shortuck icon" href="/public/image/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/public/image/favicon.ico">
+        <link rel="shortuck icon" href="/public/image/favicon.ico">
         <link rel="stylesheet" href="/public/css/style.css">
+        
         <script src="/public/javascript/change.js"></script>
         <script src="/public/javascript/include.js"></script>
 
@@ -23,21 +24,12 @@
         <div class="container">
 
             <div class="side"><nav include="/layout/side.html"></nav></div>
-
-            <div class="content">
-
-                <article class="post-section">
-
-                    <article id="post"></article>
-
-                </article>
-
-            </div>
+            <div class="content"><article class="post-section"><div id="post" name="post"></div></article></div>
 
         </div>
 
     </body>
 
-    <script>include();</script>
+    <script>include(); home();</script>
     
 </html>
